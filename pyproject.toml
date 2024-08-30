@@ -1,0 +1,9 @@
+[tool.poetry.dependencies]
+// ... existing dependencies ...
+jupyterlab = "^4.0.0"
+
+// ... rest of the file ...
+
+[tool.poetry.scripts]
+// ... existing scripts ...
+jupyter = "scripts.jupyter_server:start_jupyter_lab"

@@ -91,3 +91,21 @@ Please read CONTRIBUTING.md for details on our code of conduct and the process f
 ## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details.
+
+## Running Jupyter Notebooks
+
+To easily start a Jupyter Lab server and run the notebooks, follow these steps:
+
+1. Make sure you have installed all dependencies using Poetry:
+   ```
+   poetry install
+   ```
+
+2. Start the Jupyter Lab server:
+   ```
+   poetry run jupyter
+   ```
+
+3. Your default web browser should open automatically with the Jupyter Lab interface. If it doesn't, copy and paste the URL displayed in the terminal into your browser.
+
+4. Navigate to the `notebooks` directory in the Jupyter Lab interface to access and run the project notebooks.
